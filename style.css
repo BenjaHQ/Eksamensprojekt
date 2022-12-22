@@ -1,0 +1,662 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body,html{
+    
+    
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+
+
+/* Navigationsbar */
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.logo img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: auto;
+
+}
+
+nav ul{
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 25px;
+    font-size: 15px;
+
+
+}
+nav li a{
+
+    color: white;
+    text-decoration: none;
+
+}
+main{
+    max-width: 100%;
+    height: 100%;
+
+}
+
+/* FORSIDE SECTION */
+
+.forside{
+    background-image: url("images/marble1.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;   
+    padding-bottom: 80px;
+
+   
+}
+.infoforside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.infobillede img{
+    margin-top: 40px;
+    width: 35vh;
+    height: 40vh;
+    
+}
+
+.multimediedesigner{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.navn{
+    font-size: 25px;
+    font-weight:lighter;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.under1{
+    font-size: 20px;
+    font-weight:lighter;
+    color: #000000;
+    text-align: left;
+}
+
+.under2{
+    font-size: 20px;
+    font-weight:lighter;
+    color: #000000;
+    text-align: left;
+    }
+
+.knap1{
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.under3{
+    padding-top: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.pilned{
+    color: black;
+
+}
+
+
+
+
+/* OM MIG SEKTION */
+
+.box1{
+    background-color: white;
+    width: 100%;
+    margin:0;
+    padding: 20px 0px 80px 0px;
+    position: relative;
+}
+
+.overskriftmig{
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.paragraphmig{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #000000;
+}
+
+/* MIT ARBEJDE SEKTION */
+
+.mywork{
+    background-image: url("images/marble1.jpg");
+    width: 100%;
+    background-size: cover; 
+}
+
+.work1{
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.work2{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #000000;
+}
+
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    
+
+}
+
+.mywork .works .arbejde{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   border: 5px solid#D6D6D6;
+
+}
+
+
+.mywork .works .arbejde img{
+    width: 200px;
+    height: 300px;
+    
+}
+
+
+/* ADOBE PROGRAMER */
+.adobe{
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.adobeprogram{
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.adobeicons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.adobe .adobeicons img{
+    width: 50px;
+    height: auto;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: 10px;
+    
+}
+
+.kontaktinfomationskfit{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.paragraphfooter{
+    margin-left: 20px;
+}
+
+.socialemedialogo{
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.socialemedialogo img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+/* MEDIA FOR FORISDEN */
+
+@media only screen and (min-width:1024px)
+{
+    .forside{
+        background-image: url("images/marble1.jpg");
+        width: 100%;
+        height: 670px;
+        background-size: cover;   
+        padding-bottom: 0px;
+    }
+    .infobillede img{
+        margin-top: 100px;
+            width: 40vh;
+            height: 60vh;
+            display: flex;
+            
+        }
+
+    .multimediedesigner{
+            font-size: 60px;
+            font-weight: bolder;
+            color: #000000;
+            margin-top: 0;
+        }
+            .navn{
+                font-size: 45px;
+                font-weight:lighter;
+                color: #000000;
+                padding-bottom: 20px;
+        }
+
+        .overskriftmig{
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        
+        .infomation{
+            font-size: 20px;
+            font-weight: lighter;
+            text-align: center;
+            color: #000000;
+        }
+
+        .infoforside{
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap-reverse;
+    }
+        .work{
+            padding-top: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            
+        
+        }
+
+        .mywork .works .arbejde{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: 5px solid#D6D6D6;
+        }
+
+    
+
+        .adobeprogram{
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+         .socialemedialogo img{
+            height: 30px;
+            width: 30px;
+        }
+}
+
+/* Kontaktsiden */
+
+.kontakttophead{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kontaktmig{
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    flex-direction:row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.fotomigkontakt img{
+    margin-left: 20px;
+    width: 320px;
+    height: 760px;
+    border: #D6D6D6 solid 15px;
+    
+}
+
+.kontaktformular{
+
+    max-width: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: #D6D6D6;
+    padding: 40px;
+}
+
+/* Style af kontaktformular */
+input[type=text], select, textarea {
+    background-color:white;
+    width: 100%;
+    padding: 15px;
+    border: 4px solid black;
+    box-sizing: border-box;
+    padding-right: 30px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-family: "poppins";
+  }
+
+/* send knappen */
+input[type=send]{
+    background-color: #000000;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+input[type=send]:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* OM MIG SIDEN */
+
+.aboutmepage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.textaboutme{
+background-color: #D6D6D6;
+display: flex;
+justify-content: left;
+flex-wrap:wrap;
+}
+.aboutmepage img{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; 
+    height: 400px;
+    width: 300px;
+    border: solid 10px #D6D6D6;
+    
+}
+
+.tekstommig1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tekstommig2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.tekstommig3
+{margin-left: 50px;
+
+}
+
+.tekstommig4{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+
+
+/* WUWU SIDEN */
+
+.wuwu{
+    color: #000000;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+
+
+
+}
+
+.wuwuclothing{
+    background-color: #D6D6D6;
+    color: black;
+    margin:30px;
+    text-align: center;
+    font-weight: lighter;
+    gap: 5px;
+    
+}
+
+.wuwupics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.wuwuimg img{
+    width: 250px;
+    height: 400px;
+}
+
+
+
+
+/* ILLUSTATOR SIDEN */
+
+.illustratorside{
+    background-color: #D6D6D6;
+    color: #000000;
+    text-align: center;
+    margin: 30px;
+
+
+}
+
+.ilustatorpictures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.ilustatorpictures img{
+    width: 250px;
+    height: 300px;
+
+}
+
+/* FOTO-SIDEN */
+.foto-skole{
+    
+    background-color: #D6D6D6;
+    color: black;
+    margin:30px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 5px;
+}
+
+.fotoh1{
+    color: #000000;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.foto-pics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.diorimg img{
+    width: 250px;
+    height: 450px;
+}
+
+/* TALERSTOLEN-SIDEN */
+
+
+
+.talerstolskoleprojekt{
+    background-color: #D6D6D6;
+    color: black;
+    margin:30px;
+    text-align: center;
+    font-weight: lighter;
+    gap: 5px;
+}
+
+    .talerstolenvideodiv{
+    color: #000000;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.talerstoleimages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.talerstoleimages img{
+    width: 250px;
+    height: 400px;
+}
+
+/* Animate-siden */
+.animatesection{
+    background-color: #D6D6D6;
+    color: black;
+    margin:30px;
+    text-align: center;
+    font-weight: lighter;
+    gap: 5px;
+    
+}
+
+.animatediv{
+    color: #000000;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.animateimg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.animateimg img{
+    width: 250px;
+    height: 400px;
+}
+
